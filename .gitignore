@@ -1,0 +1,9 @@
+# node_modules目录
+/node_modules/
+
+# user目录(不包括user目录本身)
+/user/*
+
+# package相关配置文件
+/package-lock.json
+/package.json

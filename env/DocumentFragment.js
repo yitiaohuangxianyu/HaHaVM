@@ -1,0 +1,14 @@
+// DocumentFragment对象
+DocumentFragment = function DocumentFragment(){}
+hahavm.toolsFunc.safeProto(DocumentFragment, "DocumentFragment");
+Object.setPrototypeOf(DocumentFragment.prototype, Node.prototype);
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "children", {configurable:true, enumerable:true, get:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "children_get", arguments)}, set:undefined});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "firstElementChild", {configurable:true, enumerable:true, get:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "firstElementChild_get", arguments)}, set:undefined});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "lastElementChild", {configurable:true, enumerable:true, get:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "lastElementChild_get", arguments)}, set:undefined});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "childElementCount", {configurable:true, enumerable:true, get:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "childElementCount_get", arguments)}, set:undefined});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "append", {configurable:true, enumerable:true, writable:true, value:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "append", arguments)}});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "getElementById", {configurable:true, enumerable:true, writable:true, value:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "getElementById", arguments)}});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "prepend", {configurable:true, enumerable:true, writable:true, value:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "prepend", arguments)}});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "querySelector", {configurable:true, enumerable:true, writable:true, value:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "querySelector", arguments)}});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "querySelectorAll", {configurable:true, enumerable:true, writable:true, value:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "querySelectorAll", arguments)}});
+hahavm.toolsFunc.defineProperty(DocumentFragment.prototype, "replaceChildren", {configurable:true, enumerable:true, writable:true, value:function (){return hahavm.toolsFunc.dispatch(this, DocumentFragment.prototype, "DocumentFragment", "replaceChildren", arguments)}});
